@@ -18,7 +18,7 @@ const NavBar = () => {
                 <a href="https://github.com/ander9991" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>
-                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/1ander999" target="_blank" rel="noopener noreferrer">
                     <FaSquareXTwitter />
                 </a>
                 <a href="https://www.instagram.com/steven.granaturov/" target="_blank" rel="noopener noreferrer">
