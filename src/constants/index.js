@@ -30,7 +30,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2016 - 2019",
-    role: "Frontend Developer",
+    role: "Information Technology Assistant",
     company: "NYC Department of Youth & Community Development",
     description: `• Modernization Project Leadership: Led a comprehensive project to upgrade and update all computer systems within the facility, significantly enhancing operational efficiency.
                   • Inventory Management: Systematically itemized the entire inventory of electronics into a local database (MySQL), utilizing Python scripts to execute queries and generate insightful and actionable reports.
