@@ -1,40 +1,41 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/stock.jpeg";
+import project2 from "../assets/projects/PriceHub.jpg";
+import project3 from "../assets/projects/roomio.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const PROFILE_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const PROFILE_CONTENT = `I am a passionate back end developer and a Masters student at NYU, studying Computer Science with a concentration in Machine Learning and Data Science. With a few years of hands-on experience, I have honed my skills in developing Python scripts to manipulate data, and automate workflow tasks. Currently, I am a Junior DevOps Engineer at CUNY, where I am learning to create custom Chocolatey packages and utilizing my Python skills to automate workflows. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = "My journey in Computer Science began in high school, where I took a college level programming course and have built my first PC. This is where my deep curiosity for how things work began and the enjoyment of solving complex problems by connecting 'puzzle pieces' together. It is from one of my undergraduate advisor and professor where he introduced me to Machine Learning and quickly sparked my interest in this field. The idea of using technology to determine untrivial relationships between several data points, as well as leveraging Machine Learning to make predictions based on old data. Suddenly, Machine Learning opened the world to many more opportunities, such as developing medicine to diseases we have deemed to be incurable, and even self driving vehicles. Outside of Computer Science, I am also a professional table tennis player and coach in the United states with a USATT rating of 2360, making me top 10 in New York State, and top 86 in the United States. It is through table tennis where I have met amazing and powerful people, such as Tim Cook himself, and have allowed me to connect with people from around the world!";
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Junior DevSecOps Engineer",
     company: "The City University of New York",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `• Automated Report Generation: Streamlined the creation of student and faculty reports by integrating Oracle Identity Management with a local database, enhancing data accessibility and accuracy.
+                  • License Management: Collaborated with a team of six to identify and deactivate licenses for inactive accounts, resulting in annual savings exceeding $100,000.
+                  • Cost Analysis: Conducted thorough reviews of university agreements and partnerships, leading to cost-effective subscription choices that reduced annual spending by over $500,000.
+                  • Custom Software Development: Developed bespoke Chocolatey packages with tailored configurations for CUNY’s internal server use, utilizing Python and integrating with MySQL databases to improve software deployment efficiency.`,
     technologies: ["Python", "MySQL", "Chocolatey", "MS Teams"],
   },
   {
-    year: "2022 - 2023",
+    year: "2021 - Present",
+    role: "Table Tennis Coach",
+    company: "PingPod",
+    description: `• Market table tennis equipment and services related to learning table tennis.
+                  • Work directly with students to understand their needs and reach their desired goal.
+                • Promote PingPod and the sport of table tennis by running events in corporate spaces.
+                • Delegated to operate a 6-week summer camp for kids aging 10-14.`,
+    technologies: [""],
+  },
+  {
+    year: "2016 - 2019",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "NYC Department of Youth & Community Development",
+    description: `• Modernization Project Leadership: Led a comprehensive project to upgrade and update all computer systems within the facility, significantly enhancing operational efficiency.
+                  • Inventory Management: Systematically itemized the entire inventory of electronics into a local database (MySQL), utilizing Python scripts to execute queries and generate insightful and actionable reports.
+                  • Website Optimization: Worked with a team of three to update and optimize the organization’s website using WordPress and Bootstrap, improving user experience and functionality.`,
+    technologies: ["Python", "MySQL", "ReactJS", "WordPress"],
   },
 ];
 
@@ -43,29 +44,33 @@ export const PROJECTS = [
     title: "Stock Closing Price Predictor",
     image: project1,
     description:
-      "A fully functional stock closing price predictor using real world financial data obtained from the yFinance library.",
-    technologies: ["Python", "TensorFlow", "Sci-Kit Learn", "MatPlotLib", "SeaBorn"],
+      "A fully functional stock closing price predictor using machine learning and real world financial data obtained from the yFinance library.",
+    technologies: ["Python", "TensorFlow", "Sci-Kit Learn", "MatPlotLib", "SeaBorn", "Jupyter"],
+    link: "https://github.com/ander9991/CS-GY-6923-Machine-Learning/tree/main/Project"
   },
   {
-    title: "Task Management App",
+    title: "PriceHub Android Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An android application designed to find the cheapest price of any product, queried from multiple APIs. This was aimed to be an accessible version of the Honey extension.",
+    technologies: ["Flutter", "Dart", "RapidAPI", "Google Firebase"],
+    link: "https://github.com/ander9991/PriceHub"
   },
   {
-    title: "Portfolio Website",
+    title: "Roomio Database Web Application",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A web application that helps customers research apartments and make reservations.",
+    technologies: ["Python", "Django", "MySQL", "CSS", "HTML"],
+    link: "https://github.com/ashleysi/db_project"
   },
   {
-    title: "Blogging Platform",
+    title: "Bike Rental Prediction",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Designed a Poisson distribution model to predict public bike rentals per day for Seoul, South Korea.",
+    technologies: ["Python", "PyMC", "Numpy", "Pandas", "Arviz", "Seaborn", "Jupyter"],
+    link: "https://github.com/ander9991/CS-GY-6053-Data-Science"
   },
 ];
 
