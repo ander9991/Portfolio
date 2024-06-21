@@ -2,6 +2,11 @@ import project1 from "../assets/projects/stock.jpeg";
 import project2 from "../assets/projects/PriceHub.jpg";
 import project3 from "../assets/projects/roomio.png";
 import project4 from "../assets/projects/project-4.jpg";
+import CUNY from "../assets/cuny-logo.jpg";
+import PingPod from "../assets/PingPod.png";
+import DYCD from "../assets/DYCD.png";
+import CCNY from "../assets/CCNY-purple.png";
+import NYU from "../assets/NYU.png"
 
 export const PROFILE_CONTENT = `I am a passionate back end developer and a Masters student at NYU, studying Computer Science with a concentration in Machine Learning and Data Science. With a few years of hands-on experience, I have honed my skills in developing Python scripts to manipulate data, and automate workflow tasks. Currently, I am a Junior DevOps Engineer at CUNY, where I am learning to create custom Chocolatey packages and utilizing my Python skills to automate workflows. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -17,6 +22,7 @@ export const EXPERIENCES = [
                   • Cost Analysis: Conducted thorough reviews of university agreements and partnerships, leading to cost-effective subscription choices that reduced annual spending by over $500,000.
                   • Custom Software Development: Developed bespoke Chocolatey packages with tailored configurations for CUNY’s internal server use, utilizing Python and integrating with MySQL databases to improve software deployment efficiency.`,
     technologies: ["Python", "MySQL", "Chocolatey", "MS Teams"],
+    image: CUNY,
   },
   {
     year: "2021 - Present",
@@ -26,7 +32,8 @@ export const EXPERIENCES = [
                   • Work directly with students to understand their needs and reach their desired goal.
                 • Promote PingPod and the sport of table tennis by running events in corporate spaces.
                 • Delegated to operate a 6-week summer camp for kids aging 10-14.`,
-    technologies: [""],
+    technologies: ["PodPlay"],
+    image: PingPod,
   },
   {
     year: "2016 - 2019",
@@ -36,6 +43,7 @@ export const EXPERIENCES = [
                   • Inventory Management: Systematically itemized the entire inventory of electronics into a local database (MySQL), utilizing Python scripts to execute queries and generate insightful and actionable reports.
                   • Website Optimization: Worked with a team of three to update and optimize the organization’s website using WordPress and Bootstrap, improving user experience and functionality.`,
     technologies: ["Python", "MySQL", "ReactJS", "WordPress"],
+    image: DYCD,
   },
 ];
 
@@ -79,3 +87,20 @@ export const CONTACT = {
   phoneNo: "+12 4555 666 00 ",
   email: "me@example.com",
 };
+
+export const EDUCATIONS = [
+  {
+    title: "New York University - Tandon School of Engineering",
+    image: NYU,
+    year: "2023 - Present",
+    degree: "Master of Science in Computer Science",
+    description: "Relevant Coursework: Machine Learning, Data Science, Database Systems, Algorithms"
+  },
+  {
+    title: "The City College of New York - Grove School of Engineering",
+    image: CCNY,
+    year: "2019 - 2023",
+    degree: "Bachelor of Science in Computer Science",
+    description: "GPA: 3.38"
+  },
+];
