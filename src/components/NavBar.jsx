@@ -21,7 +21,7 @@ const NavBar = () => {
                 <a href="https://x.com/1ander999" target="_blank" rel="noopener noreferrer">
                     <FaSquareXTwitter />
                 </a>
-                <a href="https://www.instagram.com/steven.granaturov/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/stevengranaturov/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
                 </a>
                 <a href="/resume/Steven_Granaturov_Resume.pdf" target="_blank" rel="noopener noreferrer" className="ml-4">
