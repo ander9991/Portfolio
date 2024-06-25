@@ -15,7 +15,7 @@ export const ABOUT_TEXT = "My journey in Computer Science began in high school, 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Junior DevSecOps Engineer",
+    role: "DevSecOps Engineer",
     company: "The City University of New York",
     description: `• Automated Report Generation: Streamlined the creation of student and faculty reports by integrating Oracle Identity Management with a local database, enhancing data accessibility and accuracy.
                   • License Management: Collaborated with a team of six to identify and deactivate licenses for inactive accounts, resulting in annual savings exceeding $100,000.
