@@ -9,7 +9,7 @@ const Education = () => {
             {EDUCATIONS.map((education, index) => (
               <div key={index} className="mb-8 flex flex-wrap lg:justify-center" >
                 <motion.div whileInView={{opacity: 1, x:0}} initial={{opacity:0, x:-100 }} transition={{duration: 1}} className="w-full lg:w-1/4"> 
-                  <img src={education.image} alt="CUNY" height={300} width={300} className="py-3"/>
+                  <img src={education.image} alt="Steven Granaturov" height={300} width={300} className="py-3"/>
                 </motion.div>
                 <motion.div whileInView={{opacity: 1, x:0}} initial={{opacity:0, x:100 }} transition={{duration: 1}} className="w-full max-w-xl lg:w-3/4"> 
                   <h6 className="mb-2 font-semibold">{education.title}</h6>
