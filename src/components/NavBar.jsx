@@ -12,7 +12,7 @@ const NavBar = () => {
                 <img className="mx-0" src={logo} alt="logo" height={125} width={125} />
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                <a href="https://www.linkedin.com/in/stevengranaturov/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/sgranaturov/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>
                 <a href="https://github.com/ander9991" target="_blank" rel="noopener noreferrer">
